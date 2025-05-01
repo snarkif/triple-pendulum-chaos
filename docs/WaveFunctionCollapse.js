@@ -7,7 +7,7 @@ function windowResized() {
 
 function setup() {
   noStroke();
-  createCanvas(800, 1200);
+  createCanvas(windowWidth, windowHeight);
   for(let i=0;i<DIM;i++){
     grid[i]=[];
     for(let k=0;k<DIM;k++){
