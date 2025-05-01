@@ -3,7 +3,7 @@ let DIM=30,grid=[];//DIM=dimensions of the grid(adjustable)
 
 function setup() {
   noStroke();
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
   for(let i=0;i<DIM;i++){
     grid[i]=[];
     for(let k=0;k<DIM;k++){
