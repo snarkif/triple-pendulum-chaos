@@ -1,6 +1,10 @@
 
 let DIM=30,grid=[];//DIM=dimensions of the grid(adjustable)
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function setup() {
   noStroke();
   createCanvas(windowWidth, windowHeight);
